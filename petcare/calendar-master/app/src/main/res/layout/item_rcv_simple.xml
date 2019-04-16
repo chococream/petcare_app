@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sun.toy.CheckableLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:text="text"
+        android:id="@+id/txt"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/checkBox1"
+        android:focusable="false"
+        android:clickable="false" />
+
+</com.sun.toy.CheckableLinearLayout>

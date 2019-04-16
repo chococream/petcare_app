@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#d4ffffff"
+    tools:context="com.sun.toy.MainActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/titleimage"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="#ffffff"
+            android:text="CHECK" />
+
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="SCHEDULE"
+            android:layout_margin="10dp"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/note"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="NOTE"
+            android:layout_margin="10dp"
+            android:background="#ffffff" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="how to use it"
+        android:background="#ffffff"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
